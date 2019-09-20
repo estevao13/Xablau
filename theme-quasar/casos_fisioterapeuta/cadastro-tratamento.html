@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../assets/css/style_cadastro.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Trabalho Desenvolvimento WEB</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+  <!-- FORMULARIO DE CADASTRO -->
+
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+     
+    <div class="content">       
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro de Tratamento</h1>
+            
+          <p> 
+            <h2>Lesão na lombar</h2> 
+            <p style="color: #aaa">Estou sentindo muita dor na lombar após fazer alguns exercicios como agachamento e remadas inclinadas. A dor começou principalmente por conta de má postura e erro na execução de exercicios na academia. Gostaria de saber se tem algum exercicio que possa fazer para melhorar essa condição</p>
+            <label for="cad_descricao">Descrição do tratamento</label>
+            <textarea id="cad_descricao" required="required" name="cad_descricao"></textarea>
+          </p>
+           
+          <p> 
+            <label for="cad_file">GIF ou Imagem para ilustrar tratamento</label>
+            <input id="cad_file" name="cad_file" type="file" />
+          </p>
+
+          <p> 
+            <input id="cadastrar" type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            <a href="list-casos.html"> Cancelar </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+</body>
+
+</html>
